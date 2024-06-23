@@ -1,0 +1,23 @@
+{
+  "name": "exercicio_modulo_24",
+  "version": "1.0.0",
+  "description": "Testes utilizando PactumJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js",
+    "test:gql": "mocha ./test/graphql/**/*.test.js",
+    "test:rest": "mocha ./test/api/**/*.test.js",
+    "test:contractProvider": "mocha ./test/contract/loginProvider.test.js",
+    "test:contractConsumer": "mocha ./test/contract/loginConsumer.test.js"
+  },
+  "keywords": [],
+  "author": "jessicaarauj",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "pactum": "^3.7.0"
+  },
+  "dependencies": {
+    "pactum-flow-plugin": "^0.1.4"
+  }
+}
